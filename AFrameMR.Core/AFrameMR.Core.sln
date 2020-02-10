@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFrameMR.Core", "AFrameMR.Core.csproj", "{8E2A078F-5381-4560-97B1-875ADC0AFF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFrameMR.Core.Tests", "..\AFrameMR.Core.Tests\AFrameMR.Core.Tests.csproj", "{89FEAB54-FD04-4464-AE77-1095A6A114C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E2A078F-5381-4560-97B1-875ADC0AFF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2A078F-5381-4560-97B1-875ADC0AFF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2A078F-5381-4560-97B1-875ADC0AFF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2A078F-5381-4560-97B1-875ADC0AFF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89FEAB54-FD04-4464-AE77-1095A6A114C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FEAB54-FD04-4464-AE77-1095A6A114C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FEAB54-FD04-4464-AE77-1095A6A114C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89FEAB54-FD04-4464-AE77-1095A6A114C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C073A8F-F7AF-45DF-8FF3-ECFFBC7169E7}
+	EndGlobalSection
+EndGlobal

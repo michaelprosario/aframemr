@@ -1,0 +1,8 @@
+c:\dev\aframeMR\AFrameMR.Core\bin\Debug\netstandard2.0\AFrameMR.Core.deps.json
+c:\dev\aframeMR\AFrameMR.Core\bin\Debug\netstandard2.0\AFrameMR.Core.dll
+c:\dev\aframeMR\AFrameMR.Core\bin\Debug\netstandard2.0\AFrameMR.Core.pdb
+c:\dev\aframeMR\AFrameMR.Core\obj\Debug\netstandard2.0\AFrameMR.Core.csprojAssemblyReference.cache
+c:\dev\aframeMR\AFrameMR.Core\obj\Debug\netstandard2.0\AFrameMR.Core.AssemblyInfoInputs.cache
+c:\dev\aframeMR\AFrameMR.Core\obj\Debug\netstandard2.0\AFrameMR.Core.AssemblyInfo.cs
+c:\dev\aframeMR\AFrameMR.Core\obj\Debug\netstandard2.0\AFrameMR.Core.dll
+c:\dev\aframeMR\AFrameMR.Core\obj\Debug\netstandard2.0\AFrameMR.Core.pdb
