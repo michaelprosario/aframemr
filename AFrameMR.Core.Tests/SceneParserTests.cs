@@ -31,7 +31,7 @@ namespace AFrameMR.Core.Tests
             });
 
             // assert
-            Assert.IsTrue(response.DocumentElements.Count >= 1, "five elements should be returned");
+            Assert.IsTrue(response.Scene.DocumentElements.Count >= 1, "five elements should be returned");
         }
         
         [Test]
@@ -44,7 +44,7 @@ namespace AFrameMR.Core.Tests
             });
 
             // assert
-            Assert.IsTrue(response.DocumentElements.First().GetType() == typeof(Box));
+            Assert.IsTrue(response.Scene.DocumentElements.First().GetType() == typeof(Box));
         }
     }
 }
