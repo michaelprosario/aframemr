@@ -10,14 +10,14 @@
         <e p="Box.cs" t="Include" />
         <e p="Cylinder.cs" t="Include" />
         <e p="DocumentElement.cs" t="Include" />
+        <e p="GLTFModel.cs" t="Include" />
         <e p="Plane.cs" t="Include" />
         <e p="Sphere.cs" t="Include" />
         <e p="Vector3.cs" t="Include" />
       </e>
       <e p="Enums" t="Include" />
       <e p="Interfaces" t="Include">
-        <e p="IAFrameSceneImplementation.cs" t="Include" />
-        <e p="IAFrameScenePresenter.cs" t="Include" />
+        <e p="IAFrameSceneBehavior.cs" t="Include" />
         <e p="ITransform.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
@@ -48,6 +48,7 @@
       <e p="AFrameMR.Core.Tests.csproj" t="IncludeRecursive" />
       <e p="AFrameScenePresenterTests.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
+      <e p="GLTFTests.cs" t="Include" />
       <e p="NodeParserTests.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -59,6 +60,15 @@
       <e p="SceneParserTests.cs" t="Include" />
       <e p="TestFiles" t="Include">
         <e p="easyScene1.html" t="Include" />
+        <e p="lantern" t="Include">
+          <e p="Lantern.bin" t="Include" />
+          <e p="Lantern.gltf" t="Include" />
+          <e p="Lantern_baseColor.png" t="Include" />
+          <e p="Lantern_emissive.png" t="Include" />
+          <e p="Lantern_normal.png" t="Include" />
+          <e p="Lantern_roughnessMetallic.png" t="Include" />
+          <e p="viewer.html" t="Include" />
+        </e>
       </e>
     </e>
     <e p="C:\Users\MRosario\.nuget\packages\microsoft.net.test.sdk\16.4.0\build\netcoreapp2.1" t="Include">

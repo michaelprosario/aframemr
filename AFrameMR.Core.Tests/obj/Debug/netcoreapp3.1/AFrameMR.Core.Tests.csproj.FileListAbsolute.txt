@@ -98,3 +98,10 @@ c:\dev\aframeMR\AFrameMR.Core.Tests\bin\Debug\netcoreapp3.1\TestFiles\easyScene1
 c:\dev\aframeMR\AFrameMR.Core.Tests\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
 C:\dev\AframeMR\AFrameMR.Core.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\dev\AframeMR\AFrameMR.Core.Tests\bin\Debug\netcoreapp3.1\NSubstitute.dll
+C:\dev\AframeMR\AFrameMR.Core.Tests\bin\Debug\netcoreapp3.1\TestFiles\lantern\Lantern.bin
+C:\dev\AframeMR\AFrameMR.Core.Tests\bin\Debug\netcoreapp3.1\TestFiles\lantern\Lantern.gltf
+C:\dev\AframeMR\AFrameMR.Core.Tests\bin\Debug\netcoreapp3.1\TestFiles\lantern\Lantern_baseColor.png
+C:\dev\AframeMR\AFrameMR.Core.Tests\bin\Debug\netcoreapp3.1\TestFiles\lantern\Lantern_emissive.png
+C:\dev\AframeMR\AFrameMR.Core.Tests\bin\Debug\netcoreapp3.1\TestFiles\lantern\Lantern_normal.png
+C:\dev\AframeMR\AFrameMR.Core.Tests\bin\Debug\netcoreapp3.1\TestFiles\lantern\Lantern_roughnessMetallic.png
+C:\dev\AframeMR\AFrameMR.Core.Tests\bin\Debug\netcoreapp3.1\TestFiles\lantern\viewer.html

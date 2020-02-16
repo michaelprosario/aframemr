@@ -8,5 +8,6 @@ namespace AFrameMR.Core.Interfaces
         void MakeCylinder(Cylinder cylinder);
         void MakePlane(Plane plane);
         void MakeSphere(Sphere sphere);
+        void MakeGltfModel(GLTFModel model);
     }
 }

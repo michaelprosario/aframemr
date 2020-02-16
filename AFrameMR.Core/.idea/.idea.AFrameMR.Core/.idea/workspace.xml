@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a07e4f5-a8b9-49f6-9da1-72e58c10ab14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameMR.Core.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameMR.Core.Tests.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameScenePresenterTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameScenePresenterTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.Tests.pdb" afterDir="false" />
@@ -12,21 +13,16 @@
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/AFrameMR.Core.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/AFrameMR.Core.Tests.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/AFrameMR.Core.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/AFrameMR.Core.Tests.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AFrameMR.Core/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AFrameMR.Core/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AFrameMR.Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AFrameMR.Core/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/AFrameMR.Core/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AFrameMR.Core/DesignTimeBuild/.dtbcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/AFrameMR.Core/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AFrameMR.Core/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/AFrameMR.Core/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AFrameMR.Core/v16/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/AFrameMR.Core/v16/TestStore/0/000-0000.testlog" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AFrameMR.Core/v16/TestStore/0/000-0000.testlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/IAFrameSceneBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/IAFrameSceneBehavior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presenters/AFrameScenePresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Presenters/AFrameScenePresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Responses/SceneParserResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Responses/SceneParserResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/SceneParserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/SceneParserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/NodeParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/NodeParser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netstandard2.0/AFrameMR.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netstandard2.0/AFrameMR.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netstandard2.0/AFrameMR.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netstandard2.0/AFrameMR.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/AFrameMR.Core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AFrameMR.Core.csproj.nuget.cache" afterDir="false" />
@@ -37,87 +33,6 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Entities/AFrameScene.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Entities/Box.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Entities/Cylinder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Entities/DocumentElement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Entities/Plane.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Entities/Sphere.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Entities/Vector3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Interfaces/IAFrameSceneImplementation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Interfaces/IAFrameScenePresenter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Interfaces/ITransform.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Presenters/AFrameScenePresenter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Requests/SceneParserRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Responses/SceneParserResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Services/NodeParser.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/AFrameMR.Core/Services/SceneParserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/02/021f1a2c96d81be45ab7b28165ada9a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/02/021f1a2c96d81be45ab7b28165ada9a6.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/04/044f546e5ae45904193bd672bab11802" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/04/044f546e5ae45904193bd672bab11802.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/09/0980ebd968f62d84db4af274396f727e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/09/0980ebd968f62d84db4af274396f727e.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/10/10de13ab87b355446b37a291d80b970f" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Library/metadata/10/10de13ab87b355446b37a291d80b970f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/10/10de13ab87b355446b37a291d80b970f.info" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Library/metadata/10/10de13ab87b355446b37a291d80b970f.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/1e/1e55c2226df9973488b7432f6cf6bdd9" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Library/metadata/1e/1e55c2226df9973488b7432f6cf6bdd9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/1e/1e55c2226df9973488b7432f6cf6bdd9.info" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Library/metadata/1e/1e55c2226df9973488b7432f6cf6bdd9.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/25/25f819cd300228e43a4086eee1d672d9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/25/25f819cd300228e43a4086eee1d672d9.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/27/271327817c5c98b4b8a67543ec8416aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/27/271327817c5c98b4b8a67543ec8416aa.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/40/4029238b260afe0438b27bfec26ac668" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/40/4029238b260afe0438b27bfec26ac668.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/41/41824dccf37e05e4bb2b5d0a16212875" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/41/41824dccf37e05e4bb2b5d0a16212875.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/42/4249ab881fe59264bb25163f149869dc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/42/4249ab881fe59264bb25163f149869dc.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/47/4749d53ed10d5504e92ec5c77219c3d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/47/4749d53ed10d5504e92ec5c77219c3d1.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/54/5409b15e752fd344bbb1ee1c8ab9c4f6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/54/5409b15e752fd344bbb1ee1c8ab9c4f6.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/55/55d3bce205e87374b8531cf0b220ea46" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/55/55d3bce205e87374b8531cf0b220ea46.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/60/60221c92f3a527942a5e69ad4946137f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/60/60221c92f3a527942a5e69ad4946137f.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/6f/6f1224c943b2bc9419680c5f0c5dfc8b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/6f/6f1224c943b2bc9419680c5f0c5dfc8b.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/72/7246a44c8f5f7c2459e17c8377874d21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/72/7246a44c8f5f7c2459e17c8377874d21.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/8a/8a5604f2c00929345b2d08a10a651459" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/8a/8a5604f2c00929345b2d08a10a651459.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/92/922cc02710290094d99e27987699f707" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/92/922cc02710290094d99e27987699f707.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/9a/9a6d57f5891ab4049ab4d75620db9adf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/9a/9a6d57f5891ab4049ab4d75620db9adf.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/b4/b4274c656b71cff42bc90a70ada9a283" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/b4/b4274c656b71cff42bc90a70ada9a283.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/b4/b4acc65c90e829d4e8ebe10a5d1a8a1f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/b4/b4acc65c90e829d4e8ebe10a5d1a8a1f.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/bd/bd1dba50c7e80e24bbdfb980ebbe1e63" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/bd/bd1dba50c7e80e24bbdfb980ebbe1e63.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/c5/c567631a6eabdd04fa75c29467b2968f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/c5/c567631a6eabdd04fa75c29467b2968f.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/c5/c5e79549e90f2f44e902194ad87eec77" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/c5/c5e79549e90f2f44e902194ad87eec77.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/cb/cba3c3d92ed6d8e44bc7cd8b666db9f5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/cb/cba3c3d92ed6d8e44bc7cd8b666db9f5.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/d0/d0aa303e7404145489f7d96194cf7cee" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Library/metadata/d0/d0aa303e7404145489f7d96194cf7cee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/d0/d0aa303e7404145489f7d96194cf7cee.info" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Library/metadata/d0/d0aa303e7404145489f7d96194cf7cee.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/df/df54c95d46d81a84192e31df3be83771" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/df/df54c95d46d81a84192e31df3be83771.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/e1/e17aa3ed98a091847a6406fe6ba87777" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/e1/e17aa3ed98a091847a6406fe6ba87777.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/ec/ecc74d77fa470924585b6f7e12c7a732" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/ec/ecc74d77fa470924585b6f7e12c7a732.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/f0/f00726dc4565e3f40afb8a9026f223bd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR/Library/metadata/f0/f00726dc4565e3f40afb8a9026f223bd.info" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,47 +43,51 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Interfaces/IAFrameSceneImplementation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Interfaces/ITransform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/SimpleWorkItemDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/CompositeWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Sphere.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Vector3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Interfaces/IAFrameSceneBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/SceneParserService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Box.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Responses/SceneParserResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Cylinder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Presenters/AFrameScenePresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../AFrameMR.Core.Tests/NodeParserTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../AFrameMR.Core.Tests/GLTFTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameScenePresenterTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Plane.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/DocumentElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/AFrameScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../AFrameMR.Core.Tests/SceneParserTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Interfaces/IAFrameScenePresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Entities/GLTFModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Requests/SceneParserRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/NodeParser.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../AFrameMR.Core.Tests/NodeParserTests.cs" />
         <option value="$PROJECT_DIR$/Interfaces/ITransform.cs" />
         <option value="$PROJECT_DIR$/Entities/Box.cs" />
         <option value="$PROJECT_DIR$/Entities/Plane.cs" />
         <option value="$PROJECT_DIR$/Entities/Sphere.cs" />
         <option value="$PROJECT_DIR$/Entities/Cylinder.cs" />
-        <option value="$PROJECT_DIR$/Services/NodeParser.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.gitignore" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.gitignore" />
         <option value="$PROJECT_DIR$/Entities/AFrameScene.cs" />
         <option value="$PROJECT_DIR$/../AFrameMR.Core.Tests/SceneParserTests.cs" />
         <option value="$PROJECT_DIR$/../AFrameMR/AFrameMR/Assets/PresentationView/AFrameSceneView.cs" />
         <option value="$PROJECT_DIR$/Interfaces/IAFrameScenePresenter.cs" />
-        <option value="$PROJECT_DIR$/Presenters/AFrameScenePresenter.cs" />
         <option value="$PROJECT_DIR$/Responses/SceneParserResponse.cs" />
         <option value="$PROJECT_DIR$/Services/SceneParserService.cs" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/../AFrameMR.Core.Tests/NodeParserTests.cs" />
+        <option value="$PROJECT_DIR$/Entities/GLTFModel.cs" />
+        <option value="$PROJECT_DIR$/Services/NodeParser.cs" />
+        <option value="$PROJECT_DIR$/../AFrameMR.Core.Tests/GLTFTests.cs" />
+        <option value="$PROJECT_DIR$/Interfaces/IAFrameSceneBehavior.cs" />
+        <option value="$PROJECT_DIR$/Presenters/AFrameScenePresenter.cs" />
         <option value="$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameScenePresenterTests.cs" />
       </list>
     </option>
@@ -217,6 +136,7 @@
       <workItem from="1581526658377" duration="591000" />
       <workItem from="1581854799226" duration="474000" />
       <workItem from="1581855522129" duration="386000" />
+      <workItem from="1581860668365" duration="1796000" />
     </task>
     <servers />
   </component>
@@ -308,110 +228,131 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="527" height="589" key="DebuggerActiveHint" timestamp="1581357660211">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="527" height="589" key="DebuggerActiveHint" timestamp="1581861998703">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="421" height="466" key="DebuggerActiveHint/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581299687588" />
+    <state width="527" height="589" key="DebuggerActiveHint/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581861998703" />
     <state width="527" height="589" key="DebuggerActiveHint/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581357660211" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1581358014856">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1581862467875">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467875" />
     <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014856" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1581358014856">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1581862467875">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221907" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467875" />
     <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014856" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1581358014856">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1581862467875">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221907" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467875" />
     <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014856" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1581358014856">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1581862467875">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467875" />
     <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014856" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1581358014856">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014856" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1581358014856">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1581862467875">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467875" />
     <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014856" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.2.bottom" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.2.bottom" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.2.center" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.2.center" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.2.center/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.2.left" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.2.left" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.2.left/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.2.right" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.2.right" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.2.right/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.3.bottom" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.3.bottom" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.3.bottom/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.3.bottom/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.3.bottom/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.3.center" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.3.center" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.3.center/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.3.center/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.3.center/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.3.left" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.3.left" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.3.left/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.3.left/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.3.left/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.3.right" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.3.right" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.3.right/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.3.right/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.3.right/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.4.bottom" timestamp="1581358014858">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.4.bottom" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.4.bottom/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221909" />
+    <state width="1877" height="347" key="GridCell.Tab.4.bottom/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.4.bottom/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014858" />
-    <state width="1877" height="347" key="GridCell.Tab.4.center" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.4.center" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.4.center/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.4.center/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.4.center/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.4.left" timestamp="1581358014857">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.4.left" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.4.left/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.4.left/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.4.left/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014857" />
-    <state width="1877" height="347" key="GridCell.Tab.4.right" timestamp="1581358014858">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1877" height="347" key="GridCell.Tab.4.right" timestamp="1581862467876">
+      <screen x="1920" y="-149" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.4.right/0.0.1536.824/1920.-149.1920.1040@0.0.1536.824" timestamp="1581337221908" />
+    <state width="1877" height="347" key="GridCell.Tab.4.right/0.0.1536.824/1920.-149.1920.1040@1920.-149.1920.1040" timestamp="1581862467876" />
     <state width="1877" height="347" key="GridCell.Tab.4.right/0.0.1536.824/1920.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1581358014858" />
     <state x="2472" y="104" key="Rider.ProjectTemplateDialog.Size" timestamp="1581505109732">
       <screen x="1920" y="-149" width="1920" height="1040" />

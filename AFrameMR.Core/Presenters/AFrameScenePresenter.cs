@@ -5,11 +5,11 @@ namespace AFrameMR.Core.Presenters
 {
     public class AFrameScenePresenter
     {
-        private readonly IAFrameSceneBehavior _implementation;
+        private readonly IAFrameSceneBehavior _sceneBehavior;
 
-        public AFrameScenePresenter(IAFrameSceneBehavior implementation)
+        public AFrameScenePresenter(IAFrameSceneBehavior sceneBehavior)
         {
-            this._implementation = implementation;
+            this._sceneBehavior = sceneBehavior;
         }
 
         public void MakeScene(AFrameScene scene)
@@ -19,16 +19,19 @@ namespace AFrameMR.Core.Presenters
                 switch (documentElement)
                 {
                     case Box box:
-                        _implementation.MakeBox(box);
+                        _sceneBehavior.MakeBox(box);
                         break;
                     case Cylinder element:
-                        _implementation.MakeCylinder(element);
+                        _sceneBehavior.MakeCylinder(element);
                         break;
                     case Sphere sphere:
-                        _implementation.MakeSphere(sphere);
+                        _sceneBehavior.MakeSphere(sphere);
                         break;
                     case Plane plane:
-                        _implementation.MakePlane(plane);
+                        _sceneBehavior.MakePlane(plane);
+                        break;
+                    case GLTFModel model:
+                        _sceneBehavior.MakeGltfModel(model);                        
                         break;
                 }
             }

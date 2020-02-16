@@ -1,4 +1,5 @@
 ﻿
+using System;
 using AFrameMR.Core.Entities;
 using AFrameMR.Core.Interfaces;
 using HtmlAgilityPack;
@@ -9,6 +10,7 @@ namespace AFrameMR.Core.Services
     {
         public Box ParseBox(HtmlNode htmlNode)
         {
+            checkForNullHtmlNode(htmlNode);
             var box = new Box();
             ProcessPosition(htmlNode, box);
             ProcessRotation(htmlNode, box);
@@ -20,8 +22,20 @@ namespace AFrameMR.Core.Services
             return box;
         }
         
+        public GLTFModel ParseGltfModel(HtmlNode htmlNode)
+        {
+            checkForNullHtmlNode(htmlNode);
+            var gltfModel = new GLTFModel();
+            ProcessPosition(htmlNode, gltfModel);
+            ProcessRotation(htmlNode, gltfModel);
+            gltfModel.Source= GetStringAttribute(htmlNode, "src");
+            
+            return gltfModel;
+        }        
+        
         public Plane ParsePlane(HtmlNode htmlNode)
         {
+            checkForNullHtmlNode(htmlNode);
             var plane = new Plane();
             ProcessPosition(htmlNode, plane);
             ProcessRotation(htmlNode, plane);
@@ -34,6 +48,7 @@ namespace AFrameMR.Core.Services
         
         public DocumentElement ParseSphere(HtmlNode htmlNode)
         {
+            checkForNullHtmlNode(htmlNode);
             var sphere = new Sphere();
             ProcessPosition(htmlNode, sphere);
             ProcessRotation(htmlNode, sphere);
@@ -44,6 +59,7 @@ namespace AFrameMR.Core.Services
         
         public DocumentElement ParseCylinder(HtmlNode htmlNode)
         {
+            checkForNullHtmlNode(htmlNode);
             var cylinder = new Cylinder();
             ProcessPosition(htmlNode, cylinder);
             ProcessRotation(htmlNode, cylinder);
@@ -99,6 +115,8 @@ namespace AFrameMR.Core.Services
 
         private Vector3 getVector3FromString(HtmlNode htmlNode, string attributeName)
         {
+            checkForNullHtmlNode(htmlNode);
+            
             var result = new Vector3();
             if (!htmlNode.Attributes.Contains(attributeName))
                 return result;
@@ -124,6 +142,14 @@ namespace AFrameMR.Core.Services
             }
 
             return result;
+        }
+
+        private static void checkForNullHtmlNode(HtmlNode htmlNode)
+        {
+            if (htmlNode == null)
+            {
+                throw new ArgumentNullException("html node not defined");
+            }
         }
     }
 }

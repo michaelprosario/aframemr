@@ -35,4 +35,9 @@ public class AFrameSceneBehavior : MonoBehaviour, IAFrameSceneBehavior
         gameObject.transform.position = new UnityEngine.Vector3(sphere.Position.X, sphere.Position.Y, sphere.Position.Z);
         gameObject.transform.rotation = Quaternion.Euler(sphere.Rotation.X, sphere.Rotation.Y, sphere.Rotation.Z);
     }
+
+    public void MakeGltfModel(GLTFModel model)
+    {
+        Debug.Log("implement gltf model stuff here!");
+    }
 }
