@@ -3,13 +3,13 @@ using AFrameMR.Core.Interfaces;
 
 namespace AFrameMR.Core.Presenters
 {
-    public class AFrameScenePresenter : IAFrameScenePresenter
+    public class AFrameScenePresenter
     {
-        private readonly IAFrameSceneImplementation implementation;
+        private readonly IAFrameSceneBehavior _implementation;
 
-        public AFrameScenePresenter(IAFrameSceneImplementation implementation)
+        public AFrameScenePresenter(IAFrameSceneBehavior implementation)
         {
-            this.implementation = implementation;
+            this._implementation = implementation;
         }
 
         public void MakeScene(AFrameScene scene)
@@ -19,18 +19,16 @@ namespace AFrameMR.Core.Presenters
                 switch (documentElement)
                 {
                     case Box box:
-                        implementation.MakeBox(box);
+                        _implementation.MakeBox(box);
                         break;
                     case Cylinder element:
-                        implementation.MakeCylinder(element);
+                        _implementation.MakeCylinder(element);
                         break;
                     case Sphere sphere:
-                        implementation.MakeSphere(sphere);
+                        _implementation.MakeSphere(sphere);
                         break;
                     case Plane plane:
-                        implementation.MakePlane(plane);
-                        break;
-                    default:
+                        _implementation.MakePlane(plane);
                         break;
                 }
             }

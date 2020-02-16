@@ -1,5 +1,4 @@
 ﻿using AFrameMR.Core.Entities;
-using System.Collections.Generic;
 
 namespace AFrameMR.Core.Responses
 {

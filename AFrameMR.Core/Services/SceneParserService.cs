@@ -1,9 +1,7 @@
 ﻿
-using AFrameMR.Core.Entities;
 using AFrameMR.Core.Requests;
 using AFrameMR.Core.Responses;
 using HtmlAgilityPack;
-using System;
 
 namespace AFrameMR.Core.Services
 {

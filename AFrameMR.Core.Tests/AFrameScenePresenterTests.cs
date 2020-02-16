@@ -9,26 +9,26 @@ namespace AFrameMR.Core.Tests
 {
     public class AFrameScenePresenterTests
     {
-        AFrameScene scene;
+        AFrameScene _scene;
 
         [SetUp]
         public void TestSetup()
         {
-            scene = new AFrameScene();
+            _scene = new AFrameScene();
         }
 
         [Test]
         public void AFrameScenePresenter__MakeScene__ShouldHandleBoxCase()
         {
             // arrange
-            var sceneImplementation = Substitute.For<IAFrameSceneImplementation>();
+            var sceneImplementation = Substitute.For<IAFrameSceneBehavior>();
             var box = new Box();
-            scene.DocumentElements.Add(box);
+            _scene.DocumentElements.Add(box);
 
             var presenter = new AFrameScenePresenter(sceneImplementation);
 
             // act
-            presenter.MakeScene(scene);
+            presenter.MakeScene(_scene);
 
             // assert
             sceneImplementation.Received().MakeBox(box);
@@ -38,14 +38,14 @@ namespace AFrameMR.Core.Tests
         public void AFrameScenePresenter__MakeScene__ShouldHandleSphereCase()
         {
             // arrange
-            var sceneImplementation = Substitute.For<IAFrameSceneImplementation>();
+            var sceneImplementation = Substitute.For<IAFrameSceneBehavior>();
             var sphere = new Sphere();
-            scene.DocumentElements.Add(sphere);
+            _scene.DocumentElements.Add(sphere);
 
             var presenter = new AFrameScenePresenter(sceneImplementation);
 
             // act
-            presenter.MakeScene(scene);
+            presenter.MakeScene(_scene);
 
             // assert
             sceneImplementation.Received().MakeSphere(sphere);
@@ -55,17 +55,34 @@ namespace AFrameMR.Core.Tests
         public void AFrameScenePresenter__MakeScene__ShouldHandleCylinderCase()
         {
             // arrange
-            var sceneImplementation = Substitute.For<IAFrameSceneImplementation>();
+            var sceneImplementation = Substitute.For<IAFrameSceneBehavior>();
             var gameObject = new Cylinder();
-            scene.DocumentElements.Add(gameObject);
+            _scene.DocumentElements.Add(gameObject);
 
             var presenter = new AFrameScenePresenter(sceneImplementation);
 
             // act
-            presenter.MakeScene(scene);
+            presenter.MakeScene(_scene);
 
             // assert
             sceneImplementation.Received().MakeCylinder(gameObject);
         }
+        
+        [Test]
+        public void AFrameScenePresenter__MakeScene__ShouldHandlePlaneCase()
+        {
+            // arrange
+            var sceneImplementation = Substitute.For<IAFrameSceneBehavior>();
+            var gameObject = new Plane();
+            _scene.DocumentElements.Add(gameObject);
+
+            var presenter = new AFrameScenePresenter(sceneImplementation);
+
+            // act
+            presenter.MakeScene(_scene);
+
+            // assert
+            sceneImplementation.Received().MakePlane(gameObject);
+        }        
     }
 }

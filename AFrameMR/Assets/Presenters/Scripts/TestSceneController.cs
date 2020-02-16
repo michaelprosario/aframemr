@@ -1,15 +1,23 @@
 ﻿using AFrameMR.Core.Entities;
-using AFrameMR.Core.Interfaces;
+using AFrameMR.Core.Presenters;
 using AFrameMR.Core.Requests;
+using AFrameMR.Core.Responses;
 using AFrameMR.Core.Services;
 using UnityEngine;
 
-public class TestSceneController : MonoBehaviour, IAFrameScenePresenter
+public class TestSceneController : MonoBehaviour
 {
-    private AFrameSceneImplementation _implementation;
+    private AFrameSceneBehavior _behavior;
     void Start()
     {
         string filePath = "C:\\dev\\AframeMR\\AFrameMR\\Assets\\TestFiles\\easyScene1.html";
+        var response = ParseHtmlFile(filePath);
+        _behavior = GetComponent<AFrameSceneBehavior>();
+        MakeScene(response.Scene);
+    }
+
+    private SceneParserResponse ParseHtmlFile(string filePath)
+    {
         string htmlContent = System.IO.File.ReadAllText(filePath);
         var request = new SceneParserRequest()
         {
@@ -17,14 +25,12 @@ public class TestSceneController : MonoBehaviour, IAFrameScenePresenter
         };
         var sceneParserService = new SceneParserService();
         var response = sceneParserService.ParseScene(request);
-
-        _implementation = GetComponent<AFrameSceneImplementation>();
-        MakeScene(response.Scene);
+        return response;
     }
 
-    public void MakeScene(AFrameScene scene)
+    private void MakeScene(AFrameScene scene)
     {
-        var presenter = new AFrameMR.Core.Presenters.AFrameScenePresenter(_implementation);
+        var presenter = new AFrameScenePresenter(_behavior);
         presenter.MakeScene(scene);
     }
 }

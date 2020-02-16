@@ -16,6 +16,7 @@
       </e>
       <e p="Enums" t="Include" />
       <e p="Interfaces" t="Include">
+        <e p="IAFrameSceneImplementation.cs" t="Include" />
         <e p="IAFrameScenePresenter.cs" t="Include" />
         <e p="ITransform.cs" t="Include" />
       </e>
@@ -27,6 +28,9 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Presenters" t="Include">
+        <e p="AFrameScenePresenter.cs" t="Include" />
+      </e>
       <e p="README.md" t="Include" />
       <e p="Requests" t="Include">
         <e p="SceneParserRequest.cs" t="Include" />
@@ -42,6 +46,7 @@
     </e>
     <e p="C:\dev\AframeMR\AFrameMR.Core.Tests" t="IncludeRecursive">
       <e p="AFrameMR.Core.Tests.csproj" t="IncludeRecursive" />
+      <e p="AFrameScenePresenterTests.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="NodeParserTests.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
