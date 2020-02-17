@@ -2,37 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a07e4f5-a8b9-49f6-9da1-72e58c10ab14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameMR.Core.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameMR.Core.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameScenePresenterTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameScenePresenterTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/NodeParserTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/NodeParserTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/AFrameMR.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/AFrameMR.Core.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/AFrameMR.Core.Tests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/AFrameMR.Core.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/AFrameMR.Core.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/AFrameMR.Core.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/AFrameMR.Core.Tests.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/Debug/netcoreapp3.1/AFrameMR.Core.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR.Core.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AFrameMR.Core/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AFrameMR.Core/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AFrameMR.Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AFrameMR.Core/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces/IAFrameSceneBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/IAFrameSceneBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presenters/AFrameScenePresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Presenters/AFrameScenePresenter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/NodeParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/NodeParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/SceneParserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/SceneParserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netstandard2.0/AFrameMR.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netstandard2.0/AFrameMR.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netstandard2.0/AFrameMR.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netstandard2.0/AFrameMR.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/AFrameMR.Core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AFrameMR.Core.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/AFrameMR.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AFrameMR.Core.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/AFrameMR.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/AFrameMR.Core.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/AFrameMR.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/Libs/AFrameMR.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Assets/Libs/AFrameMR.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/Presenters/Scripts/AFrameSceneBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Assets/Presenters/Scripts/AFrameSceneBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AFrameMR/Assets/Presenters/Scripts/TestSceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../AFrameMR/Assets/Presenters/Scripts/TestSceneController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Responses/SceneParserResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Cylinder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Presenters/AFrameScenePresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../AFrameMR/Assets/Presenters/Scripts/AFrameSceneBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../AFrameMR.Core.Tests/NodeParserTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../AFrameMR.Core.Tests/GLTFTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameScenePresenterTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -80,15 +71,15 @@
         <option value="$PROJECT_DIR$/../AFrameMR/AFrameMR/Assets/PresentationView/AFrameSceneView.cs" />
         <option value="$PROJECT_DIR$/Interfaces/IAFrameScenePresenter.cs" />
         <option value="$PROJECT_DIR$/Responses/SceneParserResponse.cs" />
-        <option value="$PROJECT_DIR$/Services/SceneParserService.cs" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/../AFrameMR.Core.Tests/NodeParserTests.cs" />
         <option value="$PROJECT_DIR$/Entities/GLTFModel.cs" />
-        <option value="$PROJECT_DIR$/Services/NodeParser.cs" />
         <option value="$PROJECT_DIR$/../AFrameMR.Core.Tests/GLTFTests.cs" />
         <option value="$PROJECT_DIR$/Interfaces/IAFrameSceneBehavior.cs" />
         <option value="$PROJECT_DIR$/Presenters/AFrameScenePresenter.cs" />
         <option value="$PROJECT_DIR$/../AFrameMR.Core.Tests/AFrameScenePresenterTests.cs" />
+        <option value="$PROJECT_DIR$/../AFrameMR.Core.Tests/NodeParserTests.cs" />
+        <option value="$PROJECT_DIR$/Services/NodeParser.cs" />
+        <option value="$PROJECT_DIR$/Services/SceneParserService.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +128,7 @@
       <workItem from="1581854799226" duration="474000" />
       <workItem from="1581855522129" duration="386000" />
       <workItem from="1581860668365" duration="1796000" />
+      <workItem from="1581944304009" duration="1964000" />
     </task>
     <servers />
   </component>

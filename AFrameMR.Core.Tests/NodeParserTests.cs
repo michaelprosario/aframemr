@@ -37,6 +37,19 @@ namespace AFrameMR.Core.Tests
         }
         
         [Test]
+        public void NodeParser__ParseBox__HandleBoxWithNoColor()
+        {
+            // arrange
+            var node = _htmlDocument.DocumentNode.SelectSingleNode("//a-box");
+            node.Attributes["color"].Remove();
+            
+            // act
+            var box = _nodeParser.ParseBox(node);
+
+            // assert
+        }        
+        
+        [Test]
         public void NodeParser__ParseBox__RotationShouldBeCorrect()
         {
             // arrange

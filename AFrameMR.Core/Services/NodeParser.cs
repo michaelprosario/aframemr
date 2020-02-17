@@ -71,7 +71,15 @@ namespace AFrameMR.Core.Services
 
         private string GetStringAttribute(HtmlNode htmlNode, string attributeName)
         {
+            checkForNullHtmlNode(htmlNode);
+            
             var result = "";
+
+            if (!htmlNode.Attributes.Contains(attributeName))
+            {
+                return result;
+            }
+            
             var attributeString = htmlNode.Attributes[attributeName].Value;
             if (!string.IsNullOrEmpty(attributeString))
             {

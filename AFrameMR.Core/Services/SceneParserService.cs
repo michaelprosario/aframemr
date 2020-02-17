@@ -30,6 +30,9 @@ namespace AFrameMR.Core.Services
                     case "a-cylinder":
                         response.Scene.DocumentElements.Add(nodeParser.ParseCylinder(node));
                         break;
+                    case "a-gltf-model":
+                        response.Scene.DocumentElements.Add(nodeParser.ParseGltfModel(node));
+                        break;               
                 }
             }
 
